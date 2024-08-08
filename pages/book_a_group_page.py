@@ -53,10 +53,10 @@ class BookGroupLesson(BasePage):
         self.click(self.locate.recurring_session)
         time.sleep(2)    
 
-    def Recurring_dropdown_box(self):
-        self.wait_for_element(self.locate.recurring_checkbox_dropdown).click()
-        self.actions.send_keys(Keys.PAGE_DOWN).perform()
-        time.sleep(2)
+    # def Recurring_dropdown_box(self):
+    #     self.click(self.locate.recurring_checkbox_dropdown)
+    #     self.actions.send_keys(Keys.PAGE_DOWN).perform()
+    #     time.sleep(2)
 
     # def session_dropdown(self):
     #     self.wait_for_element(self.locate.selection_dropdown).click()

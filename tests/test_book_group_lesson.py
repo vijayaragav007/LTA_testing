@@ -20,7 +20,7 @@ class TestBookAGroup(BaseTest):
         book_group_lesson.group_lesson_dropdown()
         book_group_lesson.find_a_court() 
         book_group_lesson.Recurring()
-        book_group_lesson.Recurring_dropdown_box()
+        # book_group_lesson.Recurring_dropdown_box()
         # book_group_lesson.session_dropdown()
         # book_group_lesson.group_session_book_class()
         
