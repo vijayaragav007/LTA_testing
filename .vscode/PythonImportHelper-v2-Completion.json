@@ -1,0 +1,591 @@
+[
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "NoSuchElementException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "TimeoutException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "pages.base_page",
+        "description": "pages.base_page",
+        "isExtraImport": true,
+        "detail": "pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "pages.base_page",
+        "description": "pages.base_page",
+        "isExtraImport": true,
+        "detail": "pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "pages.base_page",
+        "description": "pages.base_page",
+        "isExtraImport": true,
+        "detail": "pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "pages.base_page",
+        "description": "pages.base_page",
+        "isExtraImport": true,
+        "detail": "pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "pages.base_page",
+        "description": "pages.base_page",
+        "isExtraImport": true,
+        "detail": "pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "BookingLocators",
+        "importPath": "utilities.booking_locators",
+        "description": "utilities.booking_locators",
+        "isExtraImport": true,
+        "detail": "utilities.booking_locators",
+        "documentation": {}
+    },
+    {
+        "label": "BookGroupLocators",
+        "importPath": "utilities.book_group_locators",
+        "description": "utilities.book_group_locators",
+        "isExtraImport": true,
+        "detail": "utilities.book_group_locators",
+        "documentation": {}
+    },
+    {
+        "label": "LTAFanZoneLocators",
+        "importPath": "utilities.fan_zone",
+        "description": "utilities.fan_zone",
+        "isExtraImport": true,
+        "detail": "utilities.fan_zone",
+        "documentation": {}
+    },
+    {
+        "label": "LTALocators",
+        "importPath": "utilities.locators",
+        "description": "utilities.locators",
+        "isExtraImport": true,
+        "detail": "utilities.locators",
+        "documentation": {}
+    },
+    {
+        "label": "SearchLocators",
+        "importPath": "utilities.search_module_locators",
+        "description": "utilities.search_module_locators",
+        "isExtraImport": true,
+        "detail": "utilities.search_module_locators",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TennisBookingCourt",
+        "importPath": "pages.booking_page",
+        "description": "pages.booking_page",
+        "isExtraImport": true,
+        "detail": "pages.booking_page",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTest",
+        "importPath": "tests.base_test",
+        "description": "tests.base_test",
+        "isExtraImport": true,
+        "detail": "tests.base_test",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTest",
+        "importPath": "tests.base_test",
+        "description": "tests.base_test",
+        "isExtraImport": true,
+        "detail": "tests.base_test",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTest",
+        "importPath": "tests.base_test",
+        "description": "tests.base_test",
+        "isExtraImport": true,
+        "detail": "tests.base_test",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTest",
+        "importPath": "tests.base_test",
+        "description": "tests.base_test",
+        "isExtraImport": true,
+        "detail": "tests.base_test",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTest",
+        "importPath": "tests.base_test",
+        "description": "tests.base_test",
+        "isExtraImport": true,
+        "detail": "tests.base_test",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "importPath": "utilities.test_data",
+        "description": "utilities.test_data",
+        "isExtraImport": true,
+        "detail": "utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "importPath": "utilities.test_data",
+        "description": "utilities.test_data",
+        "isExtraImport": true,
+        "detail": "utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "importPath": "utilities.test_data",
+        "description": "utilities.test_data",
+        "isExtraImport": true,
+        "detail": "utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "importPath": "utilities.test_data",
+        "description": "utilities.test_data",
+        "isExtraImport": true,
+        "detail": "utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "importPath": "utilities.test_data",
+        "description": "utilities.test_data",
+        "isExtraImport": true,
+        "detail": "utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "importPath": "utilities.test_data",
+        "description": "utilities.test_data",
+        "isExtraImport": true,
+        "detail": "utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "BookGroupLesson",
+        "importPath": "pages.book_a_group_page",
+        "description": "pages.book_a_group_page",
+        "isExtraImport": true,
+        "detail": "pages.book_a_group_page",
+        "documentation": {}
+    },
+    {
+        "label": "TournamentCalender",
+        "importPath": "pages.lta_fan_zone",
+        "description": "pages.lta_fan_zone",
+        "isExtraImport": true,
+        "detail": "pages.lta_fan_zone",
+        "documentation": {}
+    },
+    {
+        "label": "LTAHomePage",
+        "importPath": "pages.lta_login_page",
+        "description": "pages.lta_login_page",
+        "isExtraImport": true,
+        "detail": "pages.lta_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "LTASearchPage",
+        "importPath": "pages.lta_search_logo",
+        "description": "pages.lta_search_logo",
+        "isExtraImport": true,
+        "detail": "pages.lta_search_logo",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "importPath": "re",
+        "description": "re",
+        "isExtraImport": true,
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "isExtraImport": true,
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "kind": 6,
+        "importPath": "LTA_testing.pages.base_page",
+        "description": "LTA_testing.pages.base_page",
+        "peekOfCode": "class BasePage:\n    \"\"\"\n    The Purpose Of A Basepage Is To Contain Methods Common To All Page Objects\n    \"\"\"\n    def __init__(self, driver):\n        self.driver = driver\n        self.wait = WebDriverWait(driver, 10)\n    def find(self, *locator):\n        return self.driver.find_element(*locator)\n    def click(self, locator):",
+        "detail": "LTA_testing.pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "TennisBookingCourt",
+        "kind": 6,
+        "importPath": "LTA_testing.pages.booking_page",
+        "description": "LTA_testing.pages.booking_page",
+        "peekOfCode": "class TennisBookingCourt(BasePage):\n    def __init__(self, driver):\n        self.locate = BookingLocators\n        self.actions = ActionChains(driver)\n        super().__init__(driver)\n    def lta_username(self, lta_username):\n        self.set(self.locate.Username, lta_username)\n    def lta_password(self, lta_password):\n        self.set(self.locate.Password, lta_password)\n    def click_lta_login(self):",
+        "detail": "LTA_testing.pages.booking_page",
+        "documentation": {}
+    },
+    {
+        "label": "BookGroupLesson",
+        "kind": 6,
+        "importPath": "LTA_testing.pages.book_a_group_page",
+        "description": "LTA_testing.pages.book_a_group_page",
+        "peekOfCode": "class BookGroupLesson(BasePage):\n    def __init__(self, driver):\n        self.locate = BookGroupLocators\n        self.actions = ActionChains(driver)\n        super().__init__(driver)\n    def lta_username(self, lta_username):\n        self.set(self.locate.Username, lta_username)\n    def lta_password(self, lta_password):\n        self.set(self.locate.Password, lta_password)\n    def click_lta_login(self):",
+        "detail": "LTA_testing.pages.book_a_group_page",
+        "documentation": {}
+    },
+    {
+        "label": "TournamentCalender",
+        "kind": 6,
+        "importPath": "LTA_testing.pages.lta_fan_zone",
+        "description": "LTA_testing.pages.lta_fan_zone",
+        "peekOfCode": "class TournamentCalender(BasePage):\n    def __init__(self, driver):\n        self.locate = LTAFanZoneLocators\n        self.actions = ActionChains(driver)\n        super().__init__(driver)\n    def lta_username(self, lta_username):\n        self.set(self.locate.Username, lta_username)\n    def lta_password(self, lta_password):\n        self.set(self.locate.Password, lta_password)\n    def click_lta_login(self):",
+        "detail": "LTA_testing.pages.lta_fan_zone",
+        "documentation": {}
+    },
+    {
+        "label": "LTAHomePage",
+        "kind": 6,
+        "importPath": "LTA_testing.pages.lta_login_page",
+        "description": "LTA_testing.pages.lta_login_page",
+        "peekOfCode": "class LTAHomePage(BasePage):\n    def __init__(self, driver):\n        self.locate = LTALocators\n        self.actions = ActionChains(driver)\n        super().__init__(driver)\n    def lta_username(self, lta_username):\n        self.set(self.locate.Username, lta_username)\n    def lta_password(self, lta_password):\n        self.set(self.locate.Password, lta_password)\n    def click_lta_login(self):",
+        "detail": "LTA_testing.pages.lta_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "LTASearchPage",
+        "kind": 6,
+        "importPath": "LTA_testing.pages.lta_search_logo",
+        "description": "LTA_testing.pages.lta_search_logo",
+        "peekOfCode": "class LTASearchPage(BasePage):\n    def __init__(self, driver):\n        self.locate = SearchLocators\n        self.actions = ActionChains(driver)\n        super().__init__(driver)\n    def lta_username(self, lta_username):\n        self.set(self.locate.Username, lta_username)\n    def lta_password(self, lta_password):\n        self.set(self.locate.Password, lta_password)\n    def click_lta_login(self):",
+        "detail": "LTA_testing.pages.lta_search_logo",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTest",
+        "kind": 6,
+        "importPath": "LTA_testing.tests.base_test",
+        "description": "LTA_testing.tests.base_test",
+        "peekOfCode": "class BaseTest:\n    pass",
+        "detail": "LTA_testing.tests.base_test",
+        "documentation": {}
+    },
+    {
+        "label": "TestBookingCourt",
+        "kind": 6,
+        "importPath": "LTA_testing.tests.test_booking",
+        "description": "LTA_testing.tests.test_booking",
+        "peekOfCode": "class TestBookingCourt(BaseTest):\n    def test_booking_tennis_court(self):\n        lta_booking_page = TennisBookingCourt(self.driver)\n        lta_booking_page.lta_username(TestData.Username)\n        lta_booking_page.lta_password(TestData.Password)\n        lta_booking_page.click_lta_login()\n        lta_booking_page.Accept_all_cookies()\n        element = lta_booking_page.find_element(*lta_booking_page.locate.play)\n        lta_booking_page.hover_over_element(element)\n        lta_booking_page.play_module()",
+        "detail": "LTA_testing.tests.test_booking",
+        "documentation": {}
+    },
+    {
+        "label": "TestBookAGroup",
+        "kind": 6,
+        "importPath": "LTA_testing.tests.test_book_group_lesson",
+        "description": "LTA_testing.tests.test_book_group_lesson",
+        "peekOfCode": "class TestBookAGroup(BaseTest):\n    def test_book_a_gropu_lesson(self):\n        book_group_lesson = BookGroupLesson(self.driver)\n        book_group_lesson.lta_username(TestData.Username)\n        book_group_lesson.lta_password(TestData.Password)\n        book_group_lesson.click_lta_login()\n        book_group_lesson.Accept_all_cookies()\n        element = book_group_lesson.find_element(*book_group_lesson.locate.play)\n        book_group_lesson.hover_over_element(element)\n        book_group_lesson.play_module()",
+        "detail": "LTA_testing.tests.test_book_group_lesson",
+        "documentation": {}
+    },
+    {
+        "label": "TestFanZone",
+        "kind": 6,
+        "importPath": "LTA_testing.tests.test_fan_zone",
+        "description": "LTA_testing.tests.test_fan_zone",
+        "peekOfCode": "class TestFanZone(BaseTest):\n    def test_fan_zone_calender(self):\n        lta_fan_zone_page = TournamentCalender(self.driver)\n        lta_fan_zone_page.lta_username(TestData.Username)\n        lta_fan_zone_page.lta_password(TestData.Password)\n        lta_fan_zone_page.click_lta_login()\n        lta_fan_zone_page.Accept_all_cookies() \n        element = lta_fan_zone_page.find_element(*lta_fan_zone_page.locate.fan_zone)\n        lta_fan_zone_page.hover_over_element(element)\n        lta_fan_zone_page.all_tournaments()  ",
+        "detail": "LTA_testing.tests.test_fan_zone",
+        "documentation": {}
+    },
+    {
+        "label": "TestLogin",
+        "kind": 6,
+        "importPath": "LTA_testing.tests.test_login",
+        "description": "LTA_testing.tests.test_login",
+        "peekOfCode": "class TestLogin(BaseTest):\n    def test_lta_login(self):\n        lta_home_page = LTAHomePage(self.driver)\n        lta_home_page.lta_username(TestData.Username)\n        lta_home_page.lta_password(TestData.Password)\n        lta_home_page.click_lta_login()\n        lta_home_page.Accept_all_cookies()       \n        element = lta_home_page.find_element(*lta_home_page.locate.compete)\n        lta_home_page.hover_over_element(element)\n        lta_home_page.compete_module()",
+        "detail": "LTA_testing.tests.test_login",
+        "documentation": {}
+    },
+    {
+        "label": "TestSearchLogin",
+        "kind": 6,
+        "importPath": "LTA_testing.tests.test_search_option",
+        "description": "LTA_testing.tests.test_search_option",
+        "peekOfCode": "class TestSearchLogin(BaseTest):\n    def test_search_page(self):  \n        lta_search_page= LTASearchPage(self.driver)\n        lta_search_page.lta_username(TestData.Username)\n        lta_search_page.lta_password(TestData.Password)\n        lta_search_page.click_lta_login()\n        lta_search_page.Accept_all_cookies()       \n        lta_search_page.searching_logo()\n        lta_search_page.click_search_button()\n        lta_search_page.search_LTA_box(\"Juniors\")",
+        "detail": "LTA_testing.tests.test_search_option",
+        "documentation": {}
+    },
+    {
+        "label": "BookingLocators",
+        "kind": 6,
+        "importPath": "LTA_testing.utilities.booking_locators",
+        "description": "LTA_testing.utilities.booking_locators",
+        "peekOfCode": "class BookingLocators:\n    Username = (By.ID, \"u\")\n    Password = (By.ID, \"p\")\n    Verify_button = (By.XPATH, \"//input[@type='submit']\")\n    all_cookies =(By.XPATH,\"//button[@id='lta-cookies-button']\")\n    play =(By.XPATH,\"//button[normalize-space()='PLAY']\")\n    book_a_court =(By.XPATH,\"//a[text()='Book a court']\")\n    remove_location =(By.XPATH,\"//button[@aria-label='reset search']\")\n    check_box =(By.XPATH,\"//*[@id='lta-simple-panel-1']/form/div[1]/div/div/div/div/input[3]\")\n    search_drop_button =(By.XPATH,\"//div[@class='pac-container pac-logo hdpi']//div[1]\")",
+        "detail": "LTA_testing.utilities.booking_locators",
+        "documentation": {}
+    },
+    {
+        "label": "BookGroupLocators",
+        "kind": 6,
+        "importPath": "LTA_testing.utilities.book_group_locators",
+        "description": "LTA_testing.utilities.book_group_locators",
+        "peekOfCode": "class BookGroupLocators:\n    Username = (By.ID, \"u\")\n    Password = (By.ID, \"p\")\n    Verify_button = (By.XPATH, \"//input[@type='submit']\")\n    all_cookies =(By.XPATH,\"//button[@id='lta-cookies-button']\")\n    play =(By.XPATH,\"//button[normalize-space()='PLAY']\")\n    book_a_group=(By.XPATH,\"//a[text()='Book a group lesson']\")\n    remove_location =(By.XPATH,\"//body[1]/main[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]/*[name()='svg']/*[name()='use']\")\n    group_check_box =(By.XPATH,\"//*[@id='lta-simple-panel-1']/form/div[1]/div/div/div/div/input[3]\")\n    group_lesson_drops =(By.XPATH,\"//div[@class='pac-container pac-logo hdpi']//div[1]\")",
+        "detail": "LTA_testing.utilities.book_group_locators",
+        "documentation": {}
+    },
+    {
+        "label": "LTAFanZoneLocators",
+        "kind": 6,
+        "importPath": "LTA_testing.utilities.fan_zone",
+        "description": "LTA_testing.utilities.fan_zone",
+        "peekOfCode": "class LTAFanZoneLocators:\n    Username = (By.ID, \"u\")\n    Password = (By.ID, \"p\")\n    Verify_button = (By.XPATH, \"//input[@type='submit']\")\n    all_cookies =(By.XPATH,\"//button[@id='lta-cookies-button']\")\n    fan_zone =(By.XPATH,\"//button[normalize-space()='FAN ZONE']\")\n    tournaments =(By.XPATH,\"//a[contains(text(),'All tournaments')]\")\n    calender =(By.XPATH,\"//main[@id='main-content']/div[1]/div[1]/div[2]/form[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/h3[1]/button[1]\")\n    month =(By.XPATH,\"//input[@id='eventmonth_0_7']\")\n    radio_button_apply = (By.XPATH,\"//main[@id='main-content']/div[1]/div[1]/div[2]/form[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/button[1]\")",
+        "detail": "LTA_testing.utilities.fan_zone",
+        "documentation": {}
+    },
+    {
+        "label": "LTALocators",
+        "kind": 6,
+        "importPath": "LTA_testing.utilities.locators",
+        "description": "LTA_testing.utilities.locators",
+        "peekOfCode": "class LTALocators:\n    Username = (By.ID, \"u\")\n    Password = (By.ID, \"p\")\n    Verify_button = (By.XPATH, \"//input[@type='submit']\")\n    all_cookies =(By.XPATH,\"//button[@id='lta-cookies-button']\")\n    compete = (By.XPATH,\"//button[contains(text(), 'COMPETE')]\")\n    junior = (By.XPATH,\"//a[contains(text(),'Juniors')]\")\n    youth_Competitions = (By.XPATH,\"//main[@id='main-content']/div[1]/div[1]/div[2]/div[1]/div[1]/a[1]/div[1]/p[1]/span[1]/*[1]\")\n    youth_match_play = (By.XPATH,\"//*[@id='main-content']/div[1]/div[1]/div[2]/div[1]/div[1]/a[1]/div[1]/p[1]/span[1]/*[name()='svg'][1]/*[name()='use'][1]\")\n    submit_lta =(By.XPATH,\"//span[text()='Enter a LTA Youth Matchplay Competition']\")",
+        "detail": "LTA_testing.utilities.locators",
+        "documentation": {}
+    },
+    {
+        "label": "SearchLocators",
+        "kind": 6,
+        "importPath": "LTA_testing.utilities.search_module_locators",
+        "description": "LTA_testing.utilities.search_module_locators",
+        "peekOfCode": "class SearchLocators:\n    Username = (By.ID, \"u\")\n    Password = (By.ID, \"p\")\n    Verify_button = (By.XPATH, \"//input[@type='submit']\")\n    all_cookies =(By.XPATH,\"//button[@id='lta-cookies-button']\")\n    search_option = (By.XPATH,\"//button[@class='lta-btn lta-btn--lg lta-btn--link lta-btn--icon lta-btn--icon-before lta-mega-nav__btn--search']//*[name()='svg']\")\n    click_search_logo = (By.XPATH,\"//button[@type='submit']\")\n    lta_searchbox = (By.XPATH,\"//main[@id='main-content']/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/input[1]\")\n    submit = (By.XPATH,\"//main[@id='main-content']/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/button\")\n    view_results = (By.XPATH,\"//main[@id='main-content']/div[1]/form[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[3]/a[1]\")",
+        "detail": "LTA_testing.utilities.search_module_locators",
+        "documentation": {}
+    },
+    {
+        "label": "TestData",
+        "kind": 6,
+        "importPath": "LTA_testing.utilities.test_data",
+        "description": "LTA_testing.utilities.test_data",
+        "peekOfCode": "class TestData:\n    url = \"https://ppe.lta.org.uk/verifyaccess/\"\n    Username = \"vijay.jayaraman@verolt.com\"\n    Password = \"15July2024#\"",
+        "detail": "LTA_testing.utilities.test_data",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_driver",
+        "kind": 2,
+        "importPath": "LTA_testing.conftest",
+        "description": "LTA_testing.conftest",
+        "peekOfCode": "def initialize_driver(request):\n    if request.param == \"chrome\":\n        driver = webdriver.Chrome()\n    # elif request.param == \"edge\":\n    #     driver = webdriver.Edge()\n    # elif request.param == \"firefox\":\n    #     driver = webdriver.Firefox()\n    request.cls.driver = driver\n    print(\"Browser:\", request.param)\n    driver.get(TestData.url)",
+        "detail": "LTA_testing.conftest",
+        "documentation": {}
+    }
+]
