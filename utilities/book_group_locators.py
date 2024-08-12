@@ -12,5 +12,6 @@ class BookGroupLocators:
     group_check_box =(By.XPATH,"//*[@id='lta-simple-panel-1']/form/div[1]/div/div/div/div/input[3]")
     group_lesson_drops =(By.XPATH,"//div[@class='pac-container pac-logo hdpi']//div[1]")
     find_a_class =(By.XPATH,"//button[contains(text(),'Find a class')]")
-    recurring_session =(By.XPATH,"//div[@class='js-lta-filter-panel-scroll-content']/div[2]/div[2]/div[1]/h2[1]/a[1]")
+    recurring_session =(By.XPATH,"//div[@class='js-lta-filter-panel-scroll-content']/div[2]/div[2]/div[1]/h2[1]")
     # recurring_checkbox_dropdown =(By.XPATH,"//div[@class='u-caption1 u-text-grey-lta'][normalize-space()='Friday, 9th August 2024']")
+    
