@@ -16,7 +16,7 @@ class TestBookingCourt(BaseTest):
         lta_booking_page.play_module()
         element = lta_booking_page.find_element(*lta_booking_page.locate.remove_location)
         lta_booking_page.hover_over_element(element)
-        lta_booking_page.checkbox_locate("London,UK")
+        lta_booking_page.checkbox_locate("Wimbledon, London, UK")
         lta_booking_page.check_box_dropdown()
         # lta_booking_page.checkbox_locate()
         lta_booking_page.click_the_calender()
