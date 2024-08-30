@@ -11,10 +11,17 @@ class BookingLocators:
     check_box =(By.XPATH,"//*[@id='lta-simple-panel-1']/form/div[1]/div/div/div/div/input[3]")
     search_drop_button =(By.XPATH,"//div[@class='pac-container pac-logo hdpi']//div[1]")
     calender_dropdown =(By.XPATH,"//main[@id='main-content']/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]")
-    enter_date =(By.XPATH,"//tbody/tr[5]/td[1]/button[1]")
+    right_click_arrow =(By.XPATH,"//button[@class='duet-date__next']//*[name()='svg']")
+    enter_date =(By.XPATH,"//tbody/tr[3]/td[1]/button[1]")
     time_dropdown =(By.XPATH,"//div[@role='combobox']")
     booking_slot =(By.XPATH,"//*[@id='lta-select-items-example-three-sm']/div[4]")
     click_a_court =(By.XPATH,"//button[contains(text(),'Find a court')]")
-    
-    
-
+    rally_test =(By.XPATH,"//a[normalize-space()='Rally Test One']")
+    select_start_time =(By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-start-time']//span[contains(text(),'Please Select')]")
+    click_a_slot =(By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-start-time']//span[contains(text(),'14:30')]")
+    # click_a_slot =(By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-start-time--option-2']")
+    select_end_time =(By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-end-time']//span[contains(text(),'Please Select')]")
+    click_a_end = (By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-end-time--option-2']")
+    search_a_court =(By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-court']")
+    outdoor_option =(By.XPATH,"//div[@id='lta-select__selected-js-venue-booking-court--option-2']")
+    rally_court =(By.XPATH,"//button[normalize-space()='Book court']")

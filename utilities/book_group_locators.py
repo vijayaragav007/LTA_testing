@@ -11,6 +11,6 @@ class BookGroupLocators:
     group_check_box =(By.XPATH,"//*[@id='lta-simple-panel-1']/form/div[1]/div/div/div/div/input[3]")
     group_lesson_drops =(By.XPATH,"//div[@class='pac-container pac-logo hdpi']//div[1]")
     find_a_class =(By.XPATH,"//button[contains(text(),'Find a class')]")
-    Custom_recurring =(By.XPATH,"//a[text()='AA Custom recurring']")
+    Custom_recurring =(By.XPATH,"//main[@id='main-content']/form[@id='ResultForm']/div[2]/div[2]/div[2]/div[3]/div[2]/div[1]/h2/a[1]")
     # Custom_recurring_checkbox =(By.XPATH,"//main[@id='main-content']/div[1]/section[1]/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/input[1]")
     # book_a_custom_class =(By.XPATH,"//a[contains(text(),'Book class')]")

@@ -3,6 +3,9 @@ from pages.base_page import BasePage
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from utilities.locators import LTALocators
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 
 
@@ -38,7 +41,7 @@ class LTAHomePage(BasePage):
     def LTA_Youth_Competitions(self):
         self.click(self.locate.youth_Competitions)
         self.actions.send_keys(Keys.PAGE_DOWN).perform()
-        time.sleep(2)
+        time.sleep(3)
     
     def individual_match_competition(self):
         self.click(self.locate.youth_match_play)

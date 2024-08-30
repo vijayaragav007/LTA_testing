@@ -22,10 +22,20 @@ class TestBookingCourt(BaseTest):
         lta_booking_page.click_the_calender()
         element = lta_booking_page.find_element(*lta_booking_page.locate.enter_date)
         lta_booking_page.hover_over_element(element)
+        lta_booking_page.click_right_arrow_button()
         lta_booking_page.enter_the_date()
         lta_booking_page.time_drop_options()
         lta_booking_page.booking_time_slot()
         lta_booking_page.find_a_court()
+        lta_booking_page.rally_test_one()
+        lta_booking_page.rally_start_time()
+        lta_booking_page.available_timing()
+        lta_booking_page.test_end_time()
+        lta_booking_page.click_end_timing()
+        lta_booking_page.find_a_rally_court()
+        lta_booking_page.click_outdoor()
+        lta_booking_page.book_a_rally_court()
+        
         
         
 
