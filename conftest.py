@@ -1,4 +1,3 @@
-from hashlib import new
 import pytest
 from selenium import webdriver
 from utilities.test_data import TestData

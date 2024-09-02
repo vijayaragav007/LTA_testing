@@ -1,11 +1,8 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import ElementNotInteractableException
-from selenium.common.exceptions import TimeoutException
-import time
-from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.common.alert import Alert
+
+
 
 class BasePage:
     """
@@ -52,6 +49,7 @@ class BasePage:
     def scroll_to_element(self, locator):
         element = self.find_element(*locator)
         self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
+    
 
     def wait_and_click(self, locator):
         element = self.wait.until(EC.element_to_be_clickable(locator))
