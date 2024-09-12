@@ -45,9 +45,9 @@ class TournamentCalender(BasePage):
     def hover_over_element(self, element):
         super().hover_over_element(element)
 
-    def radio_button_checkbox(self):
-        self.click(self.locate.radio_button_apply)
-        time.sleep(2)
+    # def radio_button_checkbox(self):
+    #     self.click(self.locate.radio_button_apply)
+    #     time.sleep(2)
 
     def location_dropdown(self):
         self.click(self.locate.location)
@@ -57,9 +57,9 @@ class TournamentCalender(BasePage):
         self.click(self.locate.checkbox)
         time.sleep(2)
 
-    def location_button_apply(self):
-        self.click(self.locate.location_apply)
-        time.sleep(2)
+    # def location_button_apply(self):
+    #     self.click(self.locate.location_apply)
+    #     time.sleep(2)
 
     def event_type_in_calender(self):
         self.click(self.locate.event_type)

@@ -1,10 +1,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-
-
-
+from selenium.common.exceptions import TimeoutException
 
 
 class BasePage:
@@ -25,6 +22,11 @@ class BasePage:
         # self.driver.find_element(*locator).click()
 
     def set(self, locator, value):
+        element = self.find_element(*locator)
+        element.clear()
+        element.send_keys(value)
+        
+    def set(self, locator, value):
         self.find(*locator).clear()
         self.find(*locator).send_keys(value)
 
@@ -43,14 +45,83 @@ class BasePage:
     def hover_over_element(self, element): 
         action = ActionChains(self.driver)
         action.move_to_element(element).perform()
-        
     
-       
-    
-        
-    
+    def scroll_to_element(self, locator):
+        element = self.find_element(*locator)
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
     
 
+    def wait_and_click(self, locator):
+        element = self.wait.until(EC.element_to_be_clickable(locator))
+        element.click()
+
+    def find(self, *locator):
+        try:
+            return WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located(locator)
+            )
+        except TimeoutException:
+            print(f"Element with locator {locator} not found.")
+            raise
+
+    def click(self, locator):
+        """Click an element after ensuring it is clickable."""
+        try:
+            element = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable(locator)
+            )
+            element.click()
+        except TimeoutException:
+            print(f"Element with locator {locator} not clickable.")
+            raise
     
+
+
+
+# def wait_and_click(self, locator):
+#     element = WebDriverWait(self.driver, 10).until(
+#         EC.element_to_be_clickable(locator)
+#     )
+#     element.click()
+
+# def scroll_to_element(self, locator):
+#     element = WebDriverWait(self.driver, 10).until(
+#         EC.presence_of_element_located(locator)
+#     )
+#     self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
+
+# def safe_click(self, locator):
+#     element = WebDriverWait(self.driver, 10).until(
+#         EC.element_to_be_clickable(locator)
+#     )
+#     try:
+#         element.click()
+#     except StaleElementReferenceException:
+#         element = WebDriverWait(self.driver, 10).until(
+#             EC.element_to_be_clickable(locator)
+#         )
+#         element.click()
+
+#     def js_click(self, locator):
+#         element = WebDriverWait(self.driver, 10).until(
+#         EC.element_to_be_clickable(locator)
+#     )
+#     self.driver.execute_script("arguments[0].click();", element)
+
+#     def click_with_delay(self, locator, delay=2):
+#         WebDriverWait(self.driver, 10).until(
+#         EC.element_to_be_clickable(locator)
+#     )
+#         time.sleep(delay)
+#         self.click(locator)
     
-    
+#     def handle_alert(self):
+#         try:
+#             WebDriverWait(self.driver, 5).until(EC.alert_is_present())
+#             alert = Alert(self.driver)
+#             alert.accept()
+#         except TimeoutException:
+#             pass
+
+        
+        

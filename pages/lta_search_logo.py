@@ -2,7 +2,9 @@ from pages.base_page import BasePage
 import time
 from utilities.search_module_locators import SearchLocators
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as EC
+
+
 
 class LTASearchPage(BasePage):
     def __init__(self, driver):
@@ -23,29 +25,23 @@ class LTASearchPage(BasePage):
     def Accept_all_cookies(self):
         self.wait_for_element(self.locate.all_cookies).click()
         time.sleep(2)
-        
-    def searching_logo(self):
-        self.click(self.locate.search_option)
-        time.sleep(2)
-
-    def click_search_button(self):
-        self.click(self.locate.click_search_logo)
-        time.sleep(2)
-
-    def search_LTA_box(self, value):
-        self.set(self.locate.lta_searchbox, value)
-        time.sleep(2)
-
-    def submit_search(self):
-        self.click(self.locate.submit)
-        time.sleep(2)
 
     def hover_over_element(self, element):
-        super().hover_over_element(element)
+        super().hover_over_element(element)    
 
-    # def junior_module_option(self):
-    #     self.click(self.locate.view_results)
+    def the_compete_module(self):
+        self.wait_for_element(self.locate.junior_option).click()
+        time.sleep(2)
+    
+    def all_youth_competitons(self):
+        self.scroll_to_element(self.locate.click_all_youth_option)
+        self.wait_and_click(self.locate.click_all_youth_option)
+        
+
+    # def click_lta_youth_tour(self):
     #     self.actions.send_keys(Keys.PAGE_DOWN).perform()
+    #     self.wait_for_element(self.locate.local_tour).click()
+    #     time.sleep(2)
+    
 
     
-        
