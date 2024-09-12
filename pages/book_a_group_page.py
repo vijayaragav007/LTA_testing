@@ -26,11 +26,18 @@ class BookGroupLesson(BasePage):
     def Accept_all_cookies(self):
         self.wait_for_element(self.locate.all_cookies).click()
         time.sleep(2)
-
+    
     def play_module(self):
         self.wait_for_element(self.locate.book_a_group).click()
+        self.take_screenshot('click_book_a_group.png')
         self.actions.send_keys(Keys.PAGE_DOWN).perform()
         time.sleep(10)
+    
+       
+    def take_screenshot(self, filename):
+        self.driver.save_screenshot(filename)
+        print(f'Screenshot saved as {filename}')
+    
     
     def hover_over_element(self, element):
         super().hover_over_element(element)
@@ -38,6 +45,7 @@ class BookGroupLesson(BasePage):
     def group_lesson_checkbox(self,value):
         self.set(self.locate.group_check_box,value)
         time.sleep(2)
+
     
     def group_lesson_dropdown(self):
         self.click(self.locate.group_lesson_drops)
@@ -46,10 +54,9 @@ class BookGroupLesson(BasePage):
     def find_a_court(self):
         self.click(self.locate.find_a_class)
         time.sleep(2)
-
-    def AA_Custom_recurring(self):
-        self.wait_for_element(self.locate.Custom_recurring).click()
-        self.actions.send_keys(Keys.PAGE_DOWN).perform()
+    
+    def aa_Custom_recurring(self):
+        self.click(self.locate.Custom_recurring)
         time.sleep(2)    
 
     # def Custom_Recurring_checkbox(self):

@@ -1,7 +1,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-
+from selenium.common.exceptions import TimeoutException
 
 
 class BasePage:
@@ -54,6 +54,26 @@ class BasePage:
     def wait_and_click(self, locator):
         element = self.wait.until(EC.element_to_be_clickable(locator))
         element.click()
+
+    def find(self, *locator):
+        try:
+            return WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located(locator)
+            )
+        except TimeoutException:
+            print(f"Element with locator {locator} not found.")
+            raise
+
+    def click(self, locator):
+        """Click an element after ensuring it is clickable."""
+        try:
+            element = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable(locator)
+            )
+            element.click()
+        except TimeoutException:
+            print(f"Element with locator {locator} not clickable.")
+            raise
     
 
 

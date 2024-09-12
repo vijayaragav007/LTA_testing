@@ -19,7 +19,7 @@ class TestBookAGroup(BaseTest):
         book_group_lesson.group_lesson_checkbox("Wimbledon, London, UK")
         book_group_lesson.group_lesson_dropdown()
         book_group_lesson.find_a_court() 
-        book_group_lesson.AA_Custom_recurring()
+        book_group_lesson.aa_Custom_recurring()
         # book_group_lesson.Custom_Recurring_checkbox()
         # book_group_lesson.Book_a_Custom_recurring()
         # # book_group_lesson.group_session_book_class()

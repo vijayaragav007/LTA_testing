@@ -8,7 +8,7 @@ class LTALocators:
     all_cookies =(By.XPATH,"//button[@id='lta-cookies-button']")
     compete = (By.XPATH,"//button[contains(text(), 'COMPETE')]")
     junior = (By.XPATH,"//a[contains(text(),'Juniors')]")
-    youth_Competitions = (By.XPATH,"//main[@id='main-content']/div[1]/div[1]/div[4]/div[1]/div[4]/a[1]/div[1]/p[1]/span[1]/*[name()='svg'][1]/*[name()='use'][1]")
+    youth_Competitions =(By.XPATH,"//div[4]//div[1]//div[4]//a[1]//div[1]//p[1]")
     youth_match_play = (By.XPATH,"//main[@id='main-content']/div[1]/div[1]/div[2]/div[1]/div[3]/a[1]/div[1]/p[1]/span[1]/*[1]")
     submit_lta =(By.XPATH,"//span[contains(text(),'Enter an LTA Youth Local Tour Competition')]")
     accept =(By.XPATH,"//span[contains(text(),'Accept')]")
